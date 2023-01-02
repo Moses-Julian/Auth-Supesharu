@@ -4,9 +4,9 @@ const SignUpPage = () => {
   return (
     <div className="grid min-h-screen place-items-center bg-slate-100">
       <SignUp
-        path="/signup"
-        routing="path"
-        signInUrl="/signin"
+        path="/sign-up"
+        routing="virtual"
+        signInUrl="/sign-in"
         redirectUrl="/home"
         appearance={{
           elements: {
