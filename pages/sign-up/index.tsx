@@ -7,7 +7,7 @@ const SignUpPage = () => {
         path="/sign-up"
         routing="virtual"
         signInUrl="/sign-in"
-        redirectUrl="/home"
+        redirectUrl="https://supesharu.me"
         appearance={{
           elements: {
             formButtonPrimary:
