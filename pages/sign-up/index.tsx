@@ -1,6 +1,7 @@
 import { SignUp } from '@clerk/nextjs';
+import { NextPage } from 'next';
 
-const SignUpPage = () => {
+const SignUpPage: NextPage = () => {
   return (
     <div className="grid min-h-screen place-items-center bg-slate-100">
       <SignUp
